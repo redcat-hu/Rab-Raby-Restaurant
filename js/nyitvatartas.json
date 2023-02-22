@@ -1,0 +1,9 @@
+{
+    "hetfo": [false, 0, 0],
+    "kedd": [false, 0, 0],
+    "szerda": [false, 0, 0],
+    "csutortok": [false, 0, 0],
+    "pentek": [true, "12", "20"],
+    "szombat": [true, "12", "20"],
+    "vasarnap": [true, "12", "20"]
+}

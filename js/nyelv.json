@@ -1,0 +1,34 @@
+[
+    {
+        "hu": ["magyar", "en"],
+        "en": ["english", "hu"]
+    },
+    {
+        "menu":{
+            "fooldal": "Főoldal",
+            "menu": "Menü",
+            "csoportok": "Csoportok",
+            "rolunk": "Rólunk",
+            "kapcsolat": "Kapcsolat",
+            "cim": "HU Szentendre, Kucsera Ferenc utca 1/a"
+        },
+        "footer":{
+            "haszlink": "hasznos linkek",
+            "kapcs": "elérhetőségeink"
+        }
+    },
+    {
+        "menu":{
+            "fooldal": "Home",
+            "menu": "Menu",
+            "csoportok": "Groups",
+            "rolunk": "About Us",
+            "kapcsolat": "Contact",
+            "cim": "Hungary, Szentendre, Kucsera Ferenc utca 1/a"
+        },
+        "footer":{
+            "haszlink": "usefull links",
+            "kapcs": "contact"
+        }
+    }
+]

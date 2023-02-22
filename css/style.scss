@@ -1,0 +1,93 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+//////////////////////////////////////////////// VÁLTOZÓK
+
+$shadow_1: 0 0 1rem hsla(33, 32%, 22%, 0.192);
+$logo_fsize: 1.2rem;
+
+//////////////////////////////////////////////// ALAP
+* {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(121, 121, 121);
+
+    --color1: #cfa670;
+}
+.logo {
+    font-family: 'Lora', serif;
+    font-size: $logo_fsize;
+    line-height: $logo_fsize;
+    text-align: center;
+
+    .rr {
+        font-size: calc($logo_fsize*1.34);
+    }
+}
+.box {
+    min-height: 40vh;
+}
+
+//////////////////////////////////////////////// HEADER
+header {
+    .topbar { // Top bar
+        background-color: var(--color1);
+    }
+    .navbar {
+        transition: background-color .5s;
+        font-weight: bold;
+        color: white;
+    
+        a {color: var(--color1)}
+    }
+    .navbar-scroll {
+        background-color: white;
+        box-shadow: $shadow_1;
+    }
+    
+    .bg-image, .bg-video {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
+
+//////////////////////////////////////////////// 
+.kiem1 {
+    background-color: var(--color1);
+}
+.main_media {
+    min-height: 100vh;
+    background-color: #473926;
+    position: relative;
+
+    .alert {
+        position: absolute;
+        top: 150px;
+    }
+}
+
+//////////////////////////////////////////////// MENU
+.menu {
+    div {
+        min-height: 100vh;
+        width: 50%;
+    }
+    div:nth-child(1) {
+        background-color: #685e50;
+    }
+    div:nth-child(2) {
+        background-color: #3f2401;
+    }
+}
+
+//////////////////////////////////////////////// MENU CSOPORTOKNAK
+.main-screen {
+    min-height: 80vh;
+}
