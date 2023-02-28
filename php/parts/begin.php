@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="<?= $local; ?>css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= $local; ?>img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= $local; ?>img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= $local; ?>img/favicon-16x16.png">
+
     <title>Rab Ráby Vendéglő, Szentendre | +36 26 310 819</title>
 </head>
 
@@ -17,7 +21,7 @@
   </div>
 
   <nav class="navbar navbar-expand-md navbar-dark">
-    <div class="container-lg">
+    <div class="container-md px-4">
         <a class="navbar-brand" href="#">
             <div class="logo"><span class="rr">Rab Ráby</span><br>Restaurant</div>
           </a>
@@ -26,21 +30,11 @@
       </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menü</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Csoportok</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Rólunk</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Kapcsolat</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="home"><?= $lang_data[$lang_number]["menu"]["home"]; ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="menu"><?= $lang_data[$lang_number]["menu"]["menu"]; ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="groups"><?= $lang_data[$lang_number]["menu"]["groups"]; ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="about"><?= $lang_data[$lang_number]["menu"]["about"]; ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="contact"><?= $lang_data[$lang_number]["menu"]["contact"]; ?></a></li>
         </ul>
       </div>
     </div>

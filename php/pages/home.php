@@ -1,6 +1,4 @@
-<?php require_once "php/parts/begin.php" // BEGIN ?>
-
-    <!--
+<!--
       <video class="bg-video" autoplay loop muted plays-inline poster="img/header.jpg">
         <source src="img/video_1.mp4" type="video/mp4">
       </video>
@@ -19,7 +17,7 @@
       <li>Kert helyiség</li>
     </ul>
   </div>
-<main class="container-xxl">>
+<main class="container-xxl">
       <div class="box">
         <h1>Rab Ráby Vendéglő, Szentendre</h1>
         <p>SZERETETTEL VÁRUNK SZENTENDREI VENDÉGLŐNKBEN, A BELVÁROSBAN. FINOM MAGYAROS ÉTELEK, RÉGISÉGEK, LÉLEGZETELÁLLÍTÓ BELTÉR.</p>
@@ -43,7 +41,3 @@
       <div class="box">
         <img class="img-fluid" src="img/hitel.jpg" alt="">
       </div>
-
-
-
-<?php require_once "php/parts/end.php" // END ?>

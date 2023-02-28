@@ -1,6 +1,4 @@
-<?php require_once "php/parts/begin.php" // BEGIN ?>
-    
-  <div class="d-flex justify-content-center align-items-center flex-column main-screen">
+<div class="d-flex justify-content-center align-items-center flex-column main-screen">
     <h2>Rólunk</h2>
   </div>
   <div class="container-lg">
@@ -42,5 +40,3 @@
     </div>
     <div>kép</div>
   </div>
-
-<?php require_once "php/parts/end.php" // END ?>

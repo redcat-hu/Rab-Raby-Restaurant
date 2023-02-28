@@ -1,6 +1,4 @@
-<?php require_once "php/parts/begin.php" // BEGIN ?>
-    
-  <div class="d-flex justify-content-center align-items-center flex-column main-screen">
+   <div class="d-flex justify-content-center align-items-center flex-column main-screen">
     <h2>Menü csoportoknak</h2>
     <div class="btns">
       <button type="button" class="btn btn-primary btn-lg">PDF Megtekintése</button>
@@ -15,5 +13,3 @@ Amennyiben a menük árai felől érdeklődik, kérjük, aktuális árainkat tel
 
 Köszönjük!</p>
   </div>
-
-<?php require_once "php/parts/end.php" // END ?>
